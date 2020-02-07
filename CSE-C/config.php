@@ -2,7 +2,7 @@
 $hostName = 'localhost';
 $userName = 'root';
 $password = '';
-$databaseName = 'CSEC2020';
+$databaseName = 'user';
     
     
 if (mysqli_connect($hostName, $userName, $password, $databaseName)){

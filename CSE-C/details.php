@@ -3,7 +3,7 @@ include('config.php');
 ?>
 
 <?php 
-if (isset($_POST['btn'])){
+if (isset($_POST['submit'])){
  echo "Dear, ".$_POST['username']." Your details are".'<br>';
  echo 'ID - '.$_POST['id'].'<br>';
  echo 'Username - '.$_POST['username'].'<br>';
